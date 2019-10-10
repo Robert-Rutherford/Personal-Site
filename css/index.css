@@ -5,9 +5,25 @@
 
 body{
     background-image: url("../img/background_img1.jpeg");
-    /*background-repeat: repeat;*/
-    /*background-size: contain;*/
-    /*opacity: .5;*/
+    color: white;
+}
+
+.block1{
+height: 50vh;
+}
+.block2{
+    background-size: cover;
+    background: tan url("../img/background_img9.jpg") center;
+    height: 50vh;
+}
+.block3{
+    background-size: cover;
+    background: cornflowerblue url("../img/backgound_img10.jpg") center;
+    height: 50vh;
+}
+
+footer{
+    background-color: black;
     color: white;
 }
 
