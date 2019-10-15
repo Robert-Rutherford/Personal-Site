@@ -1,36 +1,63 @@
-*{
+* {
 
 }
 
 
-body{
+body {
     background-image: url("../img/background_img1.jpeg");
     color: white;
 }
 
-.block1{
-height: 50vh;
-}
-.block2{
-    background-size: cover;
-    background: tan url("../img/background_img9.jpg") center;
-    height: 50vh;
-}
-.block3{
-    background-size: cover;
-    background: cornflowerblue url("../img/backgound_img10.jpg") center;
+.block1 {
     height: 50vh;
 }
 
-footer{
+.block2 {
+    background-size: cover;
+    background: tan url("../img/background_img9.jpg") center;
+    border-top: cornflowerblue solid 5px;
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.block3 {
+    background-size: cover;
+    background: cornflowerblue url("../img/backgound_img10.jpg") center;
+    border-top: tan solid 5px;
+    border-radius: 10px;
+    height: 50vh;
+}
+
+footer {
     background-color: black;
     color: white;
 }
 
-nav{
+nav {
     background-image: url("../img/navbar_img4.jpg");
     background-size: cover;
 
+}
+
+.program-logo{
+    width: 80%;
+    max-width: 200px;
+    object-fit: cover;
+    margin-top: 1em;
+}
+
+.java-logo{
+    border-radius: 5em;
+}
+
+.lang-block{
+    background-color: cornflowerblue;
+    font-size: 2em;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    opacity: .9;
+    border-radius: 10px;
 }
 
 
