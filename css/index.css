@@ -39,19 +39,29 @@ nav {
 
 }
 
-.program-logo{
+.program-logo {
     width: 80%;
     max-width: 200px;
     object-fit: cover;
     margin-top: 1em;
 }
 
-.java-logo{
+.java-logo {
     border-radius: 5em;
 }
 
-.lang-block{
+.lang-block {
     background-color: cornflowerblue;
+    font-size: 2em;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    opacity: .9;
+    border-radius: 10px;
+}
+
+.project-block {
+    background-color: tan;
     font-size: 2em;
     width: 95%;
     align-items: center;
