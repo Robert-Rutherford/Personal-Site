@@ -10,6 +10,7 @@ h1 {
 
 body {
     background-image: url("../img/background_img1.jpeg");
+    /*background-color: darkblue;*/
     color: white;
 }
 
@@ -19,7 +20,8 @@ body {
 
 .block2 {
     background-size: cover;
-    background: tan url("../img/background_img9.jpg") center;
+    background-color: darkgray;
+    /*background: tan url("../img/background_img9.jpg") center;*/
     border-top: cornflowerblue solid 5px;
     border-radius: 10px;
     height: 50vh;
@@ -27,7 +29,8 @@ body {
 
 .block3 {
     background-size: cover;
-    background: cornflowerblue url("../img/backgound_img10.jpg") center;
+    background-color: darkslateblue;
+    /*background: cornflowerblue url("../img/backgound_img10.jpg") center;*/
     border-top: tan solid 5px;
     border-radius: 10px;
     height: 50vh;
@@ -56,7 +59,7 @@ nav {
 }
 
 .lang-block {
-    background-color: cornflowerblue;
+    background-color: darkcyan;
     font-size: 2em;
     width: 95%;
     align-items: center;
@@ -67,7 +70,7 @@ nav {
 }
 
 .project-block {
-    background-color: tan;
+    background-color: cadetblue;
     font-size: 2em;
     width: 95%;
     align-items: center;
@@ -75,6 +78,10 @@ nav {
     opacity: .9;
     border-radius: 10px;
     font-family: 'Turret Road', cursive;
+}
+
+.hidden-block{
+    visibility: hidden;
 }
 
 
